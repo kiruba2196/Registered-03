@@ -19,8 +19,6 @@ public class Pattern {
         {
             System.out.print("*");
         }
-        for(int k=0;k<k2;k++)
-        	System.out.print(" ");
         k1--;
         k2++;
         System.out.println();
