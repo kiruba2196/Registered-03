@@ -16,7 +16,7 @@ public class Palin
                 StringBuffer sb=new StringBuffer(sub);
                 sb.reverse();
                 String rev=String.valueOf(sb);
-                if(sub.equals(rev))
+                if(sub.equalsIgnoreCase(rev))
                 {
                 if(sub.length()>min)
                 {
