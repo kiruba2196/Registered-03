@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Pattern {
+	public static void main(String arg[])
+	{
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+	int k1=n,k2=1;
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0;j<k1; j++)
+        {
+            System.out.print("*");
+        }
+        for(int k=0;k<k2;k++)
+        	System.out.print(" ");
+        
+        for(int j=0;j<k1; j++)
+        {
+            System.out.print("*");
+        }
+        for(int k=0;k<k2;k++)
+        	System.out.print(" ");
+        k1--;
+        k2++;
+        System.out.println();
+    }
+	}
+}
